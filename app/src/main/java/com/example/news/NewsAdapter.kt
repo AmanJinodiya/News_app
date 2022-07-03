@@ -38,6 +38,7 @@ class NewsAdapter(var context:Context, var articles: List<NewsArticle>):
         holder.itemView.setOnClickListener{
             Toast.makeText(context,article.title,Toast.LENGTH_SHORT).show()
         }
+
     }
 
     override fun getItemCount(): Int {
